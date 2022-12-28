@@ -1,0 +1,1581 @@
+/* Update these before going live
+ two dates on flyer on home page
+
+*/
+
+body {
+    
+   background-color: #000011;
+   color: #fff;
+   
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+header {
+    
+    display: inline-block;
+    position: absolute;
+    color: burlywood;
+    font-family: fantasy;
+    padding: 0px 0px 5px 10px;
+    left: 650px;
+    margin: auto -75px;
+    z-index: 999;
+   
+    
+}
+
+@media only screen and (max-width: 600px){
+    header {
+        
+        float: left;
+        width: 99%;
+        left: 65px;
+        
+    }
+}
+
+
+header li {
+    
+    display: inline-block;
+    padding: 0px 15px 5px 15px;
+    font-size: 24px;
+        
+
+    
+}
+
+header li:hover {
+    
+    color: red;
+    cursor: pointer;
+    
+}
+
+.email-box {
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-width: 0px;
+    
+       
+}
+
+.form-box {
+    
+    padding: 7px;
+    border-radius: 5px;
+    background: #1a1a1a;
+    
+
+}
+
+.form-box input {
+    
+    font-size: 18px;
+    color: #000;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    background: #ececec;
+    
+    
+}
+
+.form-box button {
+    
+    color: #1a1a1a;
+    padding: 5px 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: #4769db;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+.form-box button:hover {
+    
+    background: #2e54d3;
+    
+}
+
+#page-container {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#page-container-2 {
+    
+    position: relative;
+    display: inline-block;
+    top: -175px;
+    width: 100%;
+    height: 100%;
+    opacity: 25%;
+    z-index: -1;
+    
+    
+}
+
+.autoplay {
+    z-index: -1;
+    
+}
+
+.autoplay2 {
+    z-index: -1;
+        
+}
+
+.last-bin-logo {
+    
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    margin: auto -75px;
+}
+
+.last-bin-logo img {
+    
+    display: block;
+    width: 100%;
+    height: 800px;
+    margin: 20px 275px auto;
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .last-bin-logo {
+        
+    background-image: url(../media/lastBINadsmall.png);
+    display: block;
+    width: 32%;
+    height: 79%;;
+    left: 50%;
+    top: 10%;
+    
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .last-bin-logo {
+        
+    background-image: url(../media/lastBINad.png);
+    display: block;
+    width: 39.59%;
+    height: 99%;;
+    left: 35%;
+    top: 0;
+    
+    }
+}
+
+.info-box {
+    
+    width: 270px;
+    height: 140px;
+    columns: 4;
+    display: inline-block;
+    grid-template-rows: auto;
+    margin: 20px;
+    
+    
+}
+
+.info-box:hover {
+    
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+    
+}
+
+
+#video-box1 {
+    
+    width: 560px;
+    height: 315px;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    margin: 20px;
+    color: burlywood;
+    box-shadow: 0px 0px 100px 25px;
+    
+    
+}
+
+#video-box2 {
+    
+    width: 560px;
+    height: 315px;
+    display: inline-block;
+    position: relative;
+    right: -10%;
+    margin: 20px;
+    color: darkgreen;
+    box-shadow: 0px 0px 100px 25px;
+    
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #video-box1 {
+    
+    width: 560px;
+    height: 315px;
+    display: block;
+    left: -5%;
+    color: burlywood;
+    box-shadow: 0px 0px 100px 25px;    
+    
+}
+
+   #video-box2 {
+    
+    width: 560px;
+    height: 315px;
+    display: block;
+    left: -5%;
+    color: darkgreen;
+    box-shadow: 0px 0px 100px 25px;
+    
+}
+    
+}
+    
+
+#BIN-laurels {
+    
+    display: inline-block;
+    position: relative;
+    
+  
+}
+
+
+#BIN-blurbs {
+    
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    bottom: 40px;
+    float: none;
+    left: 395px;
+    word-break: break-all;
+    
+}
+
+#BIN-blah {
+    
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    word-break: normal;
+    float: none;
+    left: 395px;
+    word-break: keep-all;
+    
+}
+
+.ppl-text {
+    
+    color: crimson;
+    width: 95%;
+
+}
+
+.ppl {
+    
+    color: burlywood;
+    width: 95%;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #kart {
+        display: flex;
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        left: 0;
+    }
+    #BIN-blurbs {
+        display: flex;
+        position: relative;
+        width: 100%;
+        font-size: 12px;
+        left: 1%;
+        top: 375px;
+        
+    }
+       #BIN-blah {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        font-size: 12px;
+        left: 10px;
+        word-break: keep-all;
+        top: 2575px;
+    }
+    
+       .ppl-text {
+        display: flex;
+        position: relative;
+        width: 100%;
+        font-size: 12px;
+        left: 0;
+        top: 425px;
+    }
+    
+       .ppl {
+        display: flex;
+        position: relative;
+        width: 100%;
+        font-size: 12px;
+        left: 0;
+        top: 410px;
+}
+}
+
+.hearts {
+    
+    display: flex;
+    position: absolute;
+    width: 98vw;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.shirts-merch {   
+   
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 275px;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 10px;
+    grid-row-gap: 10px;
+   
+}
+
+
+.shirts {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#buy {
+    
+    width: 100%;
+    display: inline-block;
+    margin-left: 100px;
+    text-decoration: underline;
+    
+}
+
+#buy:hover {
+    
+    width: 100%;
+    transform: skewX(-10deg);
+    transition: .5s;
+    display: inline-block;
+    margin-left: 100px;
+    color: red;
+}
+
+
+.shirts:hover {   
+   
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.5);
+    transition: 1s;
+   
+}
+
+
+.socials {
+    
+    position: absolute;
+    display: inline-block;
+    width: 95%;
+    top: 4400px;
+    left: 25px;
+    
+
+}
+
+.AC-wrapper {
+    
+    
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    width: 98.4vw;
+    height: 75%;
+    top: 4550px;
+    overflow: hidden;
+}
+
+.bin-logo {
+    
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    top: 1%;
+    left: 28%;
+    right: 50%;
+ 
+}
+
+
+#copyright-home {
+    
+    color: whitesmoke;
+    position: relative;
+    top: 1405px;
+    margin-left: 450px;
+    margin-right: 490px;
+    padding-bottom: 5px;
+}
+
+      @media only screen and (max-width: 600px) {
+        .hearts {
+        display: grid;
+        position: relative;
+        height: 50%;
+        width: 100%;
+        left: 0;
+        top: 375px;
+        }
+        
+         h1 {
+            display: inline-block;
+            position: absolute;
+            top: 75px;
+        }
+        
+        .shirts-merch {
+    
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        width: 70%;
+        display: inline-block;
+        column-gap: 10px;
+        grid-row-gap: 10px;
+        left: 190px;
+        top: 375px;
+        margin: auto -100px;       
+        }
+          
+        .socials {
+    
+        position: absolute;
+        display: inline-block;
+        width: 95%;
+        top: 6400px;
+        left: 25px;   
+        } 
+          
+        #buy {
+    
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        margin-left: 100px;
+        top: 2100px;
+        left: -275px;
+        text-decoration: underline;
+    
+}
+
+        #buy:hover {
+    
+        width: 100%;
+        transform: skewX(-10deg);
+        transition: .5s;
+        display: inline-block;
+        margin-left: 100px;
+        color: red;
+}
+        
+        .AC-wrapper {
+        display: inline-block;
+        position: absolute;
+        height: 40vh;
+        width: 96.7vw;
+        top: 6650px;
+        left: 0;
+        }
+        
+          
+        .bin-logo img {
+         display: none;
+            
+        }
+          
+        .bin-logo {   
+            
+        display: block;
+        position: absolute;
+        background-image: url(../media/attackCANCELlogoSMALL.png);
+        height: 17.89vh;
+        width: 30.1vw;
+        top: 100px;
+        left: 35%;
+        object-fit: contain;
+
+        }
+          
+        #copyright-home {
+    
+        color: whitesmoke;
+        position: absolute;
+        width: 100%;
+        top: 7000px;
+        left: -90%;
+        margin-left: 450px;
+        margin-right: 490px;
+        padding-bottom: 5px;
+}
+          
+}
+
+
+/*ABOUT PAGE-----------------------------------------------*/
+
+#lesnyc img {
+    
+    width: 65%;
+    left: 450px;
+    position: absolute;
+    opacity: 50%;
+    z-index: -2;
+    
+}
+
+hr {
+     width: 65%; 
+     margin-left: 445px;
+
+}
+
+hr:last-of-type {
+    margin-top: 120px;
+}
+
+#facts {
+    
+    position: absolute;
+    margin-left: 50px;
+    
+}
+
+#facts li {
+   
+    display: block;
+    margin-left: -40px;
+}
+
+#about-blurb {
+    
+    position: absolute;;
+    width: 55%;
+    margin-left: 525px;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 15px;
+    z-index: -1;
+    float: none;
+    top: 85px;
+    
+
+}
+
+.socials-about {
+    
+    margin-top: 350px;
+    width: 30%;
+}
+
+
+.media img{
+    
+    width: 65%;
+    left: 450px;
+    position: absolute;
+    opacity: 70%;
+    z-index: -2;
+}
+
+#last-bin-blurb {
+    
+    position: absolute;;
+    width: 55%;
+    margin-left: 525px;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 16px;
+    z-index: -1;
+    float: none;
+    top: 785px;
+}
+
+    #copyright-about {
+    
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top: 1750px;
+    left: 0px;
+    margin-right: 490px;
+}
+    
+
+@media only screen and (max-width: 600px) {
+    
+    #lesnyc img {
+    
+    width: 96.1vw;
+    left: 0px;
+    position: absolute;
+    opacity: 50%;
+    z-index: -2;
+    overflow: hidden;
+    
+}
+    
+    hr {
+     width: 65%; 
+     margin-left: 155px;
+
+}
+    
+    hr:last-of-type {
+    margin-top: 350px;
+}
+    
+    #facts {
+    
+    position: absolute;
+    margin-left: 0px;
+    
+}
+    
+    #about-blurb {
+    
+    position: absolute;;
+    width: 55%;
+    margin-left: 200px;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 15px;
+    z-index: -1;
+    float: none;
+    top: 85px;
+    
+}
+    
+    .media img{
+    
+    width: 96.5vw;
+    left: 0px;
+    position: absolute;
+    opacity: 50%;
+    z-index: -2;
+    overflow: hidden;
+}
+    
+    #last-bin-blurb {
+    
+    position: absolute;
+    width: 97vw;
+    margin-left: 0px;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 16px;
+    z-index: -1;
+    float: none;
+    top: 1225px;
+}
+    
+    #copyright-about {
+    
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top: 1750px;
+    left: -90%;
+    margin-left: 450px;
+    margin-right: 490px;
+}
+    
+    
+}
+
+/*Rules PAGE-----------------------------------------------*/
+
+
+.heading-left {
+    
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    padding-top: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f3f355;
+    display: inline-block;
+    position: absolute;
+    right: 795px;
+    z-index: +1;
+
+}
+
+.heading-right {
+    
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    padding-top: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f3f355;
+    display: inline-block;
+    position: absolute;
+    right: 525px;
+    z-index: +1;
+}
+
+.text-info-left {
+    
+    font-weight: 600;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    z-index: +1;
+}
+
+
+.text-info-right {
+    
+    font-weight: 600;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 450px;
+    z-index: +1;
+}
+
+
+.heading-mid {
+    
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f3f355;
+    text-align: center;
+    top: 291px;
+    z-index: +1;
+    
+    
+}
+
+.stage-thumbs {    
+    
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 70%;
+    display: inline-block;
+    column-gap: 10px;
+    grid-row-gap: 10px;
+    left: 400px;
+    margin: auto -55px;
+    top: 500px;
+    left: 343px;
+    
+       
+}
+
+
+.stage-thumbs img {
+    
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+    
+    
+}
+
+.stage-thumbs img:hover { 
+    box-shadow: 0 3px 6px rgba(0,0,0,0.17),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+    background-size: 150%;
+    transition: 1s;
+
+}
+
+
+#galaxy {
+    
+    display: inline-block;
+    position: absolute;
+    width: 124%;
+    height: 120%;
+    top: 650px;
+    left: -25%;
+    z-index: -3;
+    opacity: 25%;
+    overflow: hidden;
+}
+
+
+#copyright-rules {
+    
+    color: whitesmoke;
+    position: relative;
+    top: 550px;
+    margin-left: 610px;
+    margin-right: 550px;
+    padding-bottom: 5px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .heading-left {
+    
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    padding-top: 20px;
+    width: 40%;
+    word-break: break-all;
+    left: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f3f355;
+    z-index: +1;
+
+}
+    
+    .heading-right {
+    
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    padding-top: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f3f355;
+    display: inline-block;
+    position: absolute;
+    top: 95px;
+    right: 25px;
+    z-index: +1;
+}
+    .text-info-left {
+    
+    font-weight: 600;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    word-break: keep-all;
+    top: 95px;
+    left: -11px;
+    z-index: +1;
+}
+
+
+    .text-info-right {
+    
+    font-weight: 600;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 95px;
+    right: 5px;
+    z-index: +1;
+}
+    
+    .heading-mid {
+    
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f3f355;
+    text-align: center;
+    top: 315px;
+    z-index: +1;
+        
+}
+    
+    .stage-thumbs {    
+    
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: inline-grid;
+    grid-row-gap: 1px;
+    grid-template-columns: 2;
+    margin: auto -55px;
+    top: 600px;
+    left: 50px;
+           
+}
+
+
+    .stage-thumbs img {
+    
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+    
+    
+}
+
+    .stage-thumbs img:hover { 
+    
+        box-shadow: 0 3px 6px rgba(0,0,0,0.17),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+    background-size: 150%;
+    transition: 1s;
+
+}
+    
+    #galaxy {
+    
+    display: inline-block;
+    position: absolute;
+    width: 95vw;
+    height: 120%;
+    top: 550px;
+    left: 1%;
+    z-index: -3;
+    opacity: 25%;
+    overflow: hidden;
+}
+
+
+#copyright-rules {
+    
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    top: 2175px;
+    left: -530px;
+    width: 100%;
+    word-break: keep-all;
+    padding-bottom: 5px;
+    
+}
+    
+}
+
+
+/*Fee PAGE-----------------------------------------------*/
+
+#fee-bg {
+    
+    opacity: 15%;
+    margin-left: 29.5%;
+    height: 10px;
+    top: 50px;
+    z-index: -7; 
+     
+}
+
+
+#fee {
+   
+    color: #fff;
+    position: absolute;
+    top: 12%;
+    width: 98.4vw;
+    word-break: normal;
+    text-align: center;
+}
+
+#fee h3 {
+    
+    margin-left: 38%;
+    width: 25%;
+}
+
+
+#breakdown {
+    
+    width: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 435px;
+    right: 425;
+    text-align: center;
+    margin: auto -50px;
+    
+}
+
+
+#breakdown ul li{
+    
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+#breakdown h5 {
+    
+    margin-top: 1px;
+    
+    
+}
+
+.bold {
+    
+    font-weight: bold;
+    font-size: 28px;
+    color: goldenrod;
+}
+
+#copyright-fee {
+    
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    top: 1000px;
+    left: 1%;
+    width: 98vw;
+    word-break: keep-all;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+   #fee-bg {
+    
+    opacity: 15%;
+    margin-left: -113%;
+    height: 10px;
+    top: 50px;
+    z-index: -7;
+     
+}
+    
+    #fee {
+   
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 24px;
+    width: 95%;
+    text-align: center;
+}
+    
+    #fee h1 {
+        top: -55%;
+        left: 1px;
+        width: 100%;
+    } 
+    
+    #fee h3 {
+        
+        width: 100%;
+        margin-left: -10px;
+    }
+    
+    #breakdown {
+    
+    width: 90%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    right: 425;
+    text-align: center;
+    margin: auto -50px;
+    
+}
+    
+    #copyright-fee {
+    
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    top: 1550px;
+    left: 20px;
+    width: 90%;
+    word-break: keep-all;
+    
+}
+}
+
+
+/*Venue PAGE-----------------------------------------------*/
+
+#venue-bg {
+    overflow: hidden;
+    position: absolute;
+    top: 8%;
+    width: 99%;
+    opacity: 50%;
+    z-index: -3;
+}
+
+
+#venue-list {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.glow-wrap {
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.venue-heads {
+    
+    display: inline-block;
+    position: absolute;
+    margin: 50px;
+    padding: 50px;
+    top: 30%;
+    font-size: 28px;
+}
+
+.food {
+    
+    position: absolute;
+    left: 12.5%;
+    
+}
+
+.drinks {
+    
+    position: absolute;
+    left: 32.5%;
+}
+
+.smoking {
+    
+    position: absolute;
+    left: 52.5%;
+}
+
+.attitude {
+    
+    position: absolute;
+    left: 72.5%;
+}
+
+.food-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 33%;
+    left: -13.5%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+
+.drinks-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 33%;
+    left: 7.5%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+
+.smoking-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 33%;
+    left: 28.5%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+
+.attitude-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 33%;
+    left: 48.5%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+
+.venue-para {
+    
+    display: flex;
+    position: absolute;
+    margin: 10px;
+    padding: 50px;
+    top: 30%;
+    font-size: 15px;
+    word-wrap: normal;
+}
+
+
+.food-explain {
+    
+    position: absolute;
+    left: 7.5%;
+    top: 43%;
+    width: 20%;
+    
+}
+
+.drinks-explain {
+    
+    position: absolute;
+    left: 32.5%;
+    top: 43%;
+    width: 20%;
+    
+}
+
+.smoking-explain {
+    
+    position: absolute;
+    left: 52.5%;
+    top: 43%;
+    width: 20%;
+    
+}
+
+.attitude-explain {
+    
+    position: absolute;
+    left: 72.5%;
+    top: 43%;
+    width: 20%;
+    
+}
+
+.glow-wrap-food:hover, .glow-wrap-drinks:hover, .glow-wrap-smoking:hover, .glow-wrap-attitude:hover {
+    
+    width: 20%;
+    height: 172%; 
+    color: firebrick;
+    top: 8%;
+    left: 12.5%;
+    transition: 1.5s;
+ 
+}
+
+.venue-text {
+    
+    display: flex;
+    position: absolute;
+    top: 75%;
+    width: 98%;
+    font-size: 24px;
+    text-align: center;
+    z-index: -1;
+}
+
+.venue-text-2 {
+    
+    display: flex;
+    position: absolute;
+    top: 90%;
+    width: 98%;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    word-break: normal;
+    z-index: -1;
+}
+
+#copyright-venue {
+    
+    color: whitesmoke;
+    position: relative;
+    top: 1275px;
+    margin-left: 610px;
+    margin-right: 550px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    
+    #venue-bg {
+    overflow: hidden;
+    position: absolute;
+    top: 8%;
+        left: 0px;
+    width: 99%;
+    opacity: 50%;
+    z-index: -3;
+    overflow: hidden;
+}
+    
+    .food {
+    
+    position: absolute;
+    left: -18%;
+    
+    }
+    
+    .food-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 3%;
+    left: -28%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+    
+    .food-explain {
+    
+    position: absolute;
+    left: -10.5%;
+    top: 43%;
+    width: 20%;
+    
+}
+    
+    .venue-para {
+    
+    display: flex;
+    position: absolute;
+    margin: 10px;
+    padding: 50px;
+    top: 42%;
+    font-size: 15px;
+    word-wrap: normal;
+}
+    
+    .drinks {
+    
+    position: absolute;
+    left: 7%;
+}
+    
+    .drinks-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 3%;
+    left: -2%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+    
+    .drinks-explain {
+    
+    position: absolute;
+    left: 14.5%;
+    top: 41.5%;
+    width: 20%;
+    
+}
+    
+    .smoking {
+    
+    position: absolute;
+    left: 32.5%;
+}
+    
+    .smoking-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 3%;
+    left: 27%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+    
+    .smoking-explain {
+    
+    position: absolute;
+    left: 40.5%;
+    top: 41.29%;
+    width: 20%;
+    
+}
+    
+    .attitude {
+    
+    position: absolute;
+    top: 43.5%;
+    left: 77%;
+    padding: 0px;
+    margin: 0px;
+}
+
+    .attitude-hr {
+    
+    position: absolute;
+    width: 10%;
+    top: 3%;
+    left: 53.5%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, orange, transparent); 
+    z-index: 2;
+}
+    
+    .attitude-explain {
+    
+    position: absolute;
+    left: 77.5%;
+    top: 49%;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+    
+    
+    .venue-text {
+    
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 98%;
+    font-size: 24px;
+    text-align: center;
+    z-index: -1;
+}
+
+   .venue-text-2 {
+    
+    display: flex;
+    position: absolute;
+    top: 110%;
+       left: 0px;
+    width: 98%;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    word-break: normal;
+    z-index: -1;
+}
+
+#copyright-venue {
+    
+    color: whitesmoke;
+    display: block;
+    position: relative;
+    top: 1275px;
+    left: -600px;
+    width: 99%;
+    overflow: hidden;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
