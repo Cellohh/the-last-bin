@@ -1,5 +1,6 @@
 /* Update these before going live
- two dates on flyer on home pageee
+ two dates on flyer on home page
+
 */
 
 body {
@@ -29,15 +30,6 @@ header {
     
 }
 
-@media only screen and (max-width: 600px){
-    header {
-        
-        float: left;
-        width: 99%;
-        left: 65px;
-        
-    }
-}
 
 
 header li {
@@ -45,9 +37,7 @@ header li {
     display: inline-block;
     padding: 0px 15px 5px 15px;
     font-size: 24px;
-        
-
-    
+            
 }
 
 header li:hover {
@@ -57,54 +47,6 @@ header li:hover {
     
 }
 
-.email-box {
-    
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    min-width: 0px;
-    
-       
-}
-
-.form-box {
-    
-    padding: 7px;
-    border-radius: 5px;
-    background: #1a1a1a;
-    
-
-}
-
-.form-box input {
-    
-    font-size: 18px;
-    color: #000;
-    padding: 5px 5px;
-    border: none;
-    outline: none;
-    background: #ececec;
-    
-    
-}
-
-.form-box button {
-    
-    color: #1a1a1a;
-    padding: 5px 5px;
-    font-size: 20px;
-    border: none;
-    border-radius: #4769db;
-    cursor: pointer;
-    transition: .3s;
-    
-}
-
-.form-box button:hover {
-    
-    background: #2e54d3;
-    
-}
 
 #page-container {
     
@@ -142,6 +84,9 @@ header li:hover {
     display: inline-block;
     vertical-align: middle;
     position: absolute;
+    width: 40%;
+    height: 25%;
+    left: 17%;
     margin: auto -75px;
 }
 
@@ -152,32 +97,6 @@ header li:hover {
     height: 800px;
     margin: 20px 275px auto;
     
-}
-
-@media only screen and (min-width: 400px) {
-    .last-bin-logo {
-        
-    background-image: url(../media/lastBINadsmall.png);
-    display: block;
-    width: 32%;
-    height: 79%;;
-    left: 50%;
-    top: 10%;
-    
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .last-bin-logo {
-        
-    background-image: url(../media/lastBINad.png);
-    display: block;
-    width: 39.59%;
-    height: 99%;;
-    left: 35%;
-    top: 0;
-    
-    }
 }
 
 .info-box {
@@ -201,13 +120,13 @@ header li:hover {
 }
 
 
-#video-box1 {
+.video-box1 {
     
-    width: 560px;
+    width: 360px;
     height: 315px;
     display: inline-block;
     position: relative;
-    left: 10%;
+    left: 15%;
     margin: 20px;
     color: burlywood;
     box-shadow: 0px 0px 100px 25px;
@@ -215,13 +134,13 @@ header li:hover {
     
 }
 
-#video-box2 {
+.video-box2 {
     
-    width: 560px;
+    width: 360px;
     height: 315px;
     display: inline-block;
     position: relative;
-    right: -10%;
+    right: -30%;
     margin: 20px;
     color: darkgreen;
     box-shadow: 0px 0px 100px 25px;
@@ -229,33 +148,6 @@ header li:hover {
 
     
 }
-
-@media only screen and (max-width: 600px) {
-    
-    #video-box1 {
-    
-    width: 560px;
-    height: 315px;
-    display: block;
-    left: -5%;
-    color: burlywood;
-    box-shadow: 0px 0px 100px 25px;    
-    
-}
-
-   #video-box2 {
-    
-    width: 560px;
-    height: 315px;
-    display: block;
-    left: -5%;
-    color: darkgreen;
-    box-shadow: 0px 0px 100px 25px;
-    
-}
-    
-}
-    
 
 #BIN-laurels {
     
@@ -265,13 +157,22 @@ header li:hover {
   
 }
 
+#kart {
+        display: inline-block;
+        position: absolute;
+        top: 1950px;
+        left: 10%;
+        height: auto;
+        width: 80vw;
+    }
+
 
 #BIN-blurbs {
     
     display: inline-block;
     position: relative;
     width: 25%;
-    bottom: 40px;
+    bottom: -710px;
     float: none;
     left: 395px;
     word-break: break-all;
@@ -283,6 +184,7 @@ header li:hover {
     display: inline-block;
     position: relative;
     width: 25%;
+    bottom: -715px;
     word-break: normal;
     float: none;
     left: 395px;
@@ -292,68 +194,34 @@ header li:hover {
 
 .ppl-text {
     
+    display: flex;
+    position: relative;
     color: crimson;
     width: 95%;
+    top: 750px;
+    left: 0px;
+    justify-content: space-around;
+    
 
 }
 
 .ppl {
     
+    display: flex;
+    position: relative;
     color: burlywood;
     width: 95%;
+    top: 750px;
+    left: 0px;
+    justify-content: space-around;
 }
 
-@media only screen and (max-width: 600px) {
-    
-    #kart {
-        display: flex;
-        position: absolute;
-        height: 50%;
-        width: 100%;
-        left: 0;
-    }
-    #BIN-blurbs {
-        display: flex;
-        position: relative;
-        width: 100%;
-        font-size: 12px;
-        left: 1%;
-        top: 375px;
-        
-    }
-       #BIN-blah {
-        display: inline-block;
-        position: absolute;
-        width: 100%;
-        font-size: 12px;
-        left: 10px;
-        word-break: keep-all;
-        top: 2575px;
-    }
-    
-       .ppl-text {
-        display: flex;
-        position: relative;
-        width: 100%;
-        font-size: 12px;
-        left: 0;
-        top: 425px;
-    }
-    
-       .ppl {
-        display: flex;
-        position: relative;
-        width: 100%;
-        font-size: 12px;
-        left: 0;
-        top: 410px;
-}
-}
 
 .hearts {
     
     display: flex;
     position: absolute;
+    top: 3350px;
     width: 98vw;
     justify-content: center;
     justify-items: center;
@@ -369,6 +237,7 @@ header li:hover {
     padding-top: 275px;
     width: 95vw;
     display: grid;
+    top: 3375px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
     column-gap: 10px;
     grid-row-gap: 10px;
@@ -420,7 +289,7 @@ header li:hover {
     position: absolute;
     display: inline-block;
     width: 95%;
-    top: 4400px;
+    top: 4350px;
     left: 25px;
     
 
@@ -438,7 +307,7 @@ header li:hover {
     overflow: hidden;
 }
 
-.bin-logo {
+.acg-logo {
     
     position: absolute;
     display: inline-block;
@@ -455,114 +324,257 @@ header li:hover {
     
     color: whitesmoke;
     position: relative;
-    top: 1405px;
+    top: 2300px;
     margin-left: 450px;
     margin-right: 490px;
     padding-bottom: 5px;
 }
 
-      @media only screen and (max-width: 600px) {
-        .hearts {
-        display: grid;
-        position: relative;
-        height: 50%;
-        width: 100%;
-        left: 0;
-        top: 375px;
-        }
-        
-         h1 {
-            display: inline-block;
-            position: absolute;
-            top: 75px;
-        }
-        
-        .shirts-merch {
+/* --------MOBILE--------*/
+
+@media only screen and (max-width: 600px) {
     
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        width: 70%;
-        display: inline-block;
-        column-gap: 10px;
-        grid-row-gap: 10px;
-        left: 190px;
-        top: 375px;
-        margin: auto -100px;       
-        }
-          
-        .socials {
+    header ul {
     
-        position: absolute;
-        display: inline-block;
-        width: 95%;
-        top: 6400px;
-        left: 25px;   
-        } 
-          
-        #buy {
-    
-        width: 100%;
-        display: inline-block;
-        position: absolute;
-        margin-left: 100px;
-        top: 2100px;
-        left: -275px;
-        text-decoration: underline;
+    display: inline-block;
+    position: absolute;
+    color: burlywood;
+    font-family: fantasy;
+    padding: 0px 0px 5px 10px;
+    left: -450px;
+    margin: auto -75px;
+    z-index: 999;
     
 }
 
-        #buy:hover {
+.last-bin-logo {
     
-        width: 100%;
-        transform: skewX(-10deg);
-        transition: .5s;
-        display: inline-block;
-        margin-left: 100px;
-        color: red;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -20px;
+    left: -23%;
+    margin: auto -75px;
 }
-        
-        .AC-wrapper {
-        display: inline-block;
-        position: absolute;
-        height: 40vh;
-        width: 96.7vw;
-        top: 6650px;
-        left: 0;
-        }
-        
-          
-        .bin-logo img {
-         display: none;
-            
-        }
-          
-        .bin-logo {   
-            
-        display: block;
-        position: absolute;
-        background-image: url(../media/attackCANCELlogoSMALL.png);
-        height: 17.89vh;
-        width: 30.1vw;
-        top: 100px;
-        left: 35%;
-        object-fit: contain;
 
-        }
-          
-        #copyright-home {
+.last-bin-logo img {
     
-        color: whitesmoke;
-        position: absolute;
-        width: 100%;
-        top: 7000px;
-        left: -90%;
-        margin-left: 450px;
-        margin-right: 490px;
-        padding-bottom: 5px;
+    display: block;
+    width: 40%;
+    height: 97%;
+    margin: 20px 275px auto;
+    
 }
-          
+
+.video-box1 {
+    
+    width: 360px;
+    height: 315px;
+    display: inline-block;
+    position: relative;
+    left: -3.5%;
+    margin: 20px;
+    color: burlywood;
+    box-shadow: 0px 0px 100px 25px;
+    
+}
+
+.video-box2 {
+    
+    width: 360px;
+    height: 315px;
+    display: inline-block;
+    position: relative;
+    right: 3.5%;
+    margin: 20px;
+    color: darkgreen;
+    box-shadow: 0px 0px 100px 25px;
+    
+}
+    
+    #BIN-laurels {
+    
+    display: inline-block;
+    position: relative;
+    left: -25px;
+    
+  
+}
+    
+    #kart {
+        display: inline-block;
+        position: absolute;
+        top: 2050px;
+        left: 10%;
+        height: auto;
+        width: 80vw;
+    }
+    
+    #BIN-blurbs {
+    
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    bottom: -1790px;
+    left: 35px;
+    word-break: keep-all;
+    font-size: 12px;
+    
+}
+
+    #BIN-blah {
+    
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    bottom: -1810px;
+    left: 175px;
+    word-break: normal;
+    word-break: keep-all;
+    
+}
+    
+    .ppl-text {
+    
+    display: flex;
+    position: relative;
+    color: crimson;
+    width: 95%;
+    top: 450px;
+    left: 0px;
+    justify-content: space-around;
+    
+
+}
+
+.ppl {
+    
+    display: flex;
+    position: relative;
+    color: burlywood;
+    width: 95%;
+    top: 425px;
+    left: 0px;
+    justify-content: space-around;
+}
+    
+    .hearts {
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3025px;
+    width: 98vw;
+    justify-content: center;
+    justify-items: center;
+
+}
+    
+    .shirts-merch {   
+   
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 275px;
+    width: 95vw;
+    display: grid;
+    top: 3975px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 10px;
+    grid-row-gap: 10px;
+   
+}
+
+
+.shirts {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#buy {
+    
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    left: -100px;
+    text-decoration: underline;
+    
+}
+
+#buy:hover {
+    
+    width: 100%;
+    transform: skewX(-10deg);
+    transition: .5s;
+    display: inline-block;
+    margin-left: 100px;
+    color: red;
+}
+
+
+.shirts:hover {   
+   
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.5);
+    transition: 1s;
+   
+}
+    
+    .socials {
+    
+    position: absolute;
+    display: inline-block;
+    width: 95%;
+    top: 6300px;
+    left: 10px;
+    
+
+}
+    
+    .AC-wrapper {
+    
+    
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    width: 97.7vw;
+    height: 50%;
+    top: 6575px;
+    overflow: hidden;
+}
+    
+    .acg-logo img{
+    
+    position: absolute;
+    display: inline-block;
+    width: 75%;
+    height: 75%;
+    top: 10%;
+    left: -60px;
+ 
+}
+    
+    #copyright-home {
+    
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    top: 7000px;
+    left: -450px;
+    padding-bottom: 5px;
+}
+
+
 }
 
 
@@ -656,12 +668,16 @@ hr:last-of-type {
 }
     
 
+/*--------ABOUT MOBILE------*/
+
+
 @media only screen and (max-width: 600px) {
     
     #lesnyc img {
     
     width: 96.1vw;
-    left: 0px;
+    top: 50px;
+    left: 8px;
     position: absolute;
     opacity: 50%;
     z-index: -2;
@@ -671,12 +687,12 @@ hr:last-of-type {
     
     hr {
      width: 65%; 
-     margin-left: 155px;
+     margin-left: 55px;
 
 }
     
     hr:last-of-type {
-    margin-top: 350px;
+    margin-top: 925px;
 }
     
     #facts {
@@ -689,7 +705,7 @@ hr:last-of-type {
     #about-blurb {
     
     position: absolute;;
-    width: 55%;
+    width: 45%;
     margin-left: 200px;
     color: whitesmoke;
     font-family: monospace;
@@ -703,7 +719,7 @@ hr:last-of-type {
     .media img{
     
     width: 96.5vw;
-    left: 0px;
+    left: 5.5px;
     position: absolute;
     opacity: 50%;
     z-index: -2;
@@ -717,10 +733,10 @@ hr:last-of-type {
     margin-left: 0px;
     color: whitesmoke;
     font-family: monospace;
-    font-size: 16px;
+    font-size: 12px;
     z-index: -1;
     float: none;
-    top: 1225px;
+    top: 1800px;
 }
     
     #copyright-about {
@@ -728,9 +744,9 @@ hr:last-of-type {
     color: whitesmoke;
     position: absolute;
     width: 100%;
-    top: 1750px;
+    top: 2200px;
     left: -90%;
-    margin-left: 450px;
+    margin-left: 350px;
     margin-right: 490px;
 }
     
@@ -874,6 +890,10 @@ hr:last-of-type {
     
 }
 
+
+/*------MOBILE RULESET-----*/
+
+
 @media only screen and (max-width: 600px) {
     
     .heading-left {
@@ -883,7 +903,7 @@ hr:last-of-type {
     font-weight: 1000;
     padding-top: 20px;
     width: 40%;
-    word-break: break-all;
+    word-break: keep-all;
     left: 10px;
     text-transform: uppercase;
     border-bottom: 2px solid #f3f355;
@@ -902,7 +922,7 @@ hr:last-of-type {
     display: inline-block;
     position: absolute;
     top: 95px;
-    right: 25px;
+    right: 75px;
     z-index: +1;
 }
     .text-info-left {
@@ -942,7 +962,7 @@ hr:last-of-type {
     text-transform: uppercase;
     border-bottom: 2px solid #f3f355;
     text-align: center;
-    top: 315px;
+    top: 375px;
     z-index: +1;
         
 }
@@ -958,7 +978,7 @@ hr:last-of-type {
     grid-row-gap: 1px;
     grid-template-columns: 2;
     margin: auto -55px;
-    top: 600px;
+    top: 700px;
     left: 50px;
            
 }
@@ -1004,8 +1024,8 @@ hr:last-of-type {
     color: whitesmoke;
     display: inline-block;
     position: absolute;
-    top: 2175px;
-    left: -530px;
+    top: 2275px;
+    left: -575px;
     width: 100%;
     word-break: keep-all;
     padding-bottom: 5px;
@@ -1016,6 +1036,7 @@ hr:last-of-type {
 
 
 /*Fee PAGE-----------------------------------------------*/
+
 
 #fee-bg {
     
@@ -1097,6 +1118,12 @@ hr:last-of-type {
     
 }
 
+
+
+/*--------MOBILE FEE-----------*/
+
+
+
 @media only screen and (max-width: 600px) {
     
    #fee-bg {
@@ -1113,7 +1140,7 @@ hr:last-of-type {
    
     color: #fff;
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 24px;
     width: 95%;
     text-align: center;
@@ -1136,7 +1163,7 @@ hr:last-of-type {
     width: 90%;
     border: 2px solid #fff;
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 70px;
     right: 425;
     text-align: center;
@@ -1144,12 +1171,20 @@ hr:last-of-type {
     
 }
     
+    ul li h5 {
+        
+       position: absolute;
+       width: 90%;
+       top: 90%;
+       left: 20px;
+    }
+    
     #copyright-fee {
     
     color: whitesmoke;
     display: inline-block;
     position: absolute;
-    top: 1550px;
+    top: 1450px;
     left: 20px;
     width: 90%;
     word-break: keep-all;
@@ -1173,6 +1208,9 @@ hr:last-of-type {
 #venue-list {
 
     display: flex;
+    position: relative;
+    top: 250px;
+    left: -50px;
     width: 100%;
     height: 100%;
 
@@ -1183,8 +1221,6 @@ hr:last-of-type {
     width: 100%;
     height: 100%;
 }
-
-
 
 .venue-heads {
     
@@ -1199,6 +1235,7 @@ hr:last-of-type {
 .food {
     
     position: absolute;
+    top: -75px;
     left: 12.5%;
     
 }
@@ -1206,26 +1243,29 @@ hr:last-of-type {
 .drinks {
     
     position: absolute;
-    left: 32.5%;
+    top: -75px;
+    left: 35.5%;
 }
 
 .smoking {
     
     position: absolute;
-    left: 52.5%;
+    top: -75px;    
+    left: 55.5%;
 }
 
 .attitude {
     
     position: absolute;
-    left: 72.5%;
+    top: -75px;
+    left: 78.5%;
 }
 
 .food-hr {
     
     position: absolute;
     width: 10%;
-    top: 33%;
+    top: -55px;
     left: -13.5%;
     border: 0;
     height: 2px;
@@ -1237,8 +1277,8 @@ hr:last-of-type {
     
     position: absolute;
     width: 10%;
-    top: 33%;
-    left: 7.5%;
+    top: -55px;
+    left: 10%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, orange, transparent); 
@@ -1249,8 +1289,8 @@ hr:last-of-type {
     
     position: absolute;
     width: 10%;
-    top: 33%;
-    left: 28.5%;
+    top: -55px;
+    left: 31%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, orange, transparent); 
@@ -1261,8 +1301,8 @@ hr:last-of-type {
     
     position: absolute;
     width: 10%;
-    top: 33%;
-    left: 48.5%;
+    top: -55px;
+    left: 54%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, orange, transparent); 
@@ -1311,7 +1351,7 @@ hr:last-of-type {
 .attitude-explain {
     
     position: absolute;
-    left: 72.5%;
+    left: 75.5%;
     top: 43%;
     width: 20%;
     
@@ -1332,7 +1372,7 @@ hr:last-of-type {
     
     display: flex;
     position: absolute;
-    top: 75%;
+    top: 55%;
     width: 98%;
     font-size: 24px;
     text-align: center;
@@ -1343,7 +1383,7 @@ hr:last-of-type {
     
     display: flex;
     position: absolute;
-    top: 90%;
+    top: 75%;
     width: 98%;
     font-size: 18px;
     text-align: center;
@@ -1363,6 +1403,11 @@ hr:last-of-type {
 }
 
 
+
+/*-------MOBILE VENUE---------*/
+
+
+
 @media only screen and (max-width: 600px) {
     
     
@@ -1370,7 +1415,7 @@ hr:last-of-type {
     overflow: hidden;
     position: absolute;
     top: 8%;
-        left: 0px;
+    left: 0px;
     width: 99%;
     opacity: 50%;
     z-index: -3;
@@ -1380,16 +1425,17 @@ hr:last-of-type {
     .food {
     
     position: absolute;
-    left: -18%;
+    left: -14.5%;
     
     }
     
     .food-hr {
     
+    display: inline-block;
     position: absolute;
     width: 10%;
-    top: 3%;
-    left: -28%;
+    top: -865px;
+    left: -.5%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, orange, transparent); 
@@ -1399,7 +1445,7 @@ hr:last-of-type {
     .food-explain {
     
     position: absolute;
-    left: -10.5%;
+    left: -3.5%;
     top: 43%;
     width: 20%;
     
@@ -1426,8 +1472,8 @@ hr:last-of-type {
     
     position: absolute;
     width: 10%;
-    top: 3%;
-    left: -2%;
+    top: -865px;
+    left: 24.5%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, orange, transparent); 
@@ -1437,7 +1483,7 @@ hr:last-of-type {
     .drinks-explain {
     
     position: absolute;
-    left: 14.5%;
+    left: 20.5%;
     top: 41.5%;
     width: 20%;
     
@@ -1453,8 +1499,8 @@ hr:last-of-type {
     
     position: absolute;
     width: 10%;
-    top: 3%;
-    left: 27%;
+    top: -865px;
+    left: 52%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, orange, transparent); 
@@ -1464,7 +1510,7 @@ hr:last-of-type {
     .smoking-explain {
     
     position: absolute;
-    left: 40.5%;
+    left: 47.5%;
     top: 41.29%;
     width: 20%;
     
@@ -1473,18 +1519,16 @@ hr:last-of-type {
     .attitude {
     
     position: absolute;
-    top: 43.5%;
-    left: 77%;
-    padding: 0px;
-    margin: 0px;
+    left: 63%;
+   
 }
 
     .attitude-hr {
     
     position: absolute;
     width: 10%;
-    top: 3%;
-    left: 53.5%;
+    top: -865px;
+    left: 78.5%;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, orange, transparent); 
@@ -1494,11 +1538,9 @@ hr:last-of-type {
     .attitude-explain {
     
     position: absolute;
-    left: 77.5%;
+    left: 72.5%;
     top: 49%;
-    width: 20%;
-    margin: 0px;
-    padding: 0px;
+    width: 25%;
     
 }
     
@@ -1507,7 +1549,7 @@ hr:last-of-type {
     
     display: flex;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 0px;
     width: 98%;
     font-size: 24px;
@@ -1519,8 +1561,8 @@ hr:last-of-type {
     
     display: flex;
     position: absolute;
-    top: 110%;
-       left: 0px;
+    top: 125%;
+    left: 0px;
     width: 98%;
     font-size: 18px;
     text-align: center;
